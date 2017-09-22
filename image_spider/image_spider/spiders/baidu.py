@@ -49,11 +49,10 @@ class BaiduSpider(scrapy.Spider):
         urls = []
         for i in params:
             urls.append(requests.get(url, params=i).json().get('data'))
-
         self.getImg(urls, 'download_img')
 
-    def getImg(self, dataList, localPath):
 
+    def getImg(self, dataList, localPath):
         if not os.path.exists(localPath):
             os.mkdir(localPath)
         os.chdir(localPath)
