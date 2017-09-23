@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07bc8c1-589b-4130-aa42-01d385370b72" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/download_img/dump.jl" afterPath="$PROJECT_DIR$/image_spider/download_img/dump.jl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/items.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/items.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,24 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baidu_pic.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="baidu_pic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+            <state relative-caret-position="1764">
+              <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/defer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="629" column="0" lean-forward="false" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -65,8 +56,8 @@
       <file leaf-file-name="es_types.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -77,8 +68,8 @@
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="192">
+              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="e#152#165#0" expanded="true" />
               </folding>
@@ -86,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public_proc.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="public_proc.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="246">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -130,10 +121,10 @@
         <option value="$PROJECT_DIR$/image_spider/download_img/fuck.jl" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/settings.py" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" />
+        <option value="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
+        <option value="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/items.py" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" />
-        <option value="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
-        <option value="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
       </list>
     </option>
   </component>
@@ -375,7 +366,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.771261" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3858859" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14564565" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -417,7 +408,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/image_spider/image_spider/items.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -561,11 +559,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/defer.py">
+    <entry file="file://$PROJECT_DIR$/image_spider/download_img/dump.jl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="629" column="0" lean-forward="false" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
+        <state relative-caret-position="-5168">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <element signature="e#152#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,50 +595,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="e#152#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/download_img/dump.jl">
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/twisted/internet/defer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5168">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2597">
+          <caret line="629" column="0" lean-forward="false" selection-start-line="629" selection-start-column="0" selection-end-line="629" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+        <state relative-caret-position="1764">
+          <caret line="98" column="51" lean-forward="true" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

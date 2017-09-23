@@ -92,15 +92,14 @@ class BaiduPicSpider(scrapy.Spider):
                     if thumbURL != None:
                         #download_url(save_path, thumbURL)
                         x += 1
-
-                    # 建立item_loader
-                    item['url'] = thumbURL
-                    item['source'] = i.get('fromURLHost')
-                    item['local_path'] = save_path
-                    item['tags'] = self.keyword
-                    item['url_object_id'] = get_md5(thumbURL)
-                    dump_item_to_json(item)
-                    save_item_to_es(item)
+                        # 建立item_loader
+                        item['url'] = thumbURL
+                        item['source'] = i.get('fromURLHost')
+                        item['local_path'] = save_path
+                        item['tags'] = self.keyword
+                        item['url_object_id'] = get_md5(thumbURL)
+                        dump_item_to_json(item)
+                        save_item_to_es(item)
             print('图片下载完成')
         except Exception:
             print('图片下载失败')

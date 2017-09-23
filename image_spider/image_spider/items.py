@@ -20,11 +20,11 @@ class ImageSpiderItem(scrapy.Item):
 
     def save_to_es(self):
         image = ImageType()
+        image.meta.id = self["url_object_id"]
         image.local_path = self["local_path"]
         image.tags = self["tags"]
         image.url = self["url"]
         image.source = self["source"]
-        # image.meta.id = self["url_object_id"]
 
         image.save()
         return
