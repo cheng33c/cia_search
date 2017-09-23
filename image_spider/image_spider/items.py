@@ -13,3 +13,4 @@ class ImageSpiderItem(scrapy.Item):
     source = scrapy.Field()
     url = scrapy.Field()
     local_path = scrapy.Field()
+    tags = scrapy.Field()

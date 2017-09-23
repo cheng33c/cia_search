@@ -18,21 +18,21 @@ class ImageSpiderPipeline(object):
         return item
 
 class JsonWithEncodingPipeline(object):
-    # 自定义的json导出方法
+    #自定义json文件的导出
     def __init__(self):
-        self.file = codecs.open('image_info.json', 'w', encoding='utf-8')
-    def process_item(self, item, spdier):
+        self.file = codecs.open('1.jl', 'w', encoding="utf-8")
+    def process_item(self, item, spider):
         lines = json.dumps(dict(item), ensure_ascii=False) + "\n"
         self.file.write(lines)
         return item
     def spider_closed(self, spider):
         self.file.close()
 
-class JsonExporterPipeline(object):
-    # 导出json文件
+class JsonExporterPipleline(object):
+    #调用scrapy提供的json export导出json文件
     def __init__(self):
-        self.file = open('image_export.json', 'wb')
-        self.exporter = JsonItemExporter(self.file, encoding='utf8', ensure_ascii=False)
+        self.file = open('dump.json', 'wb')
+        self.exporter = JsonItemExporter(self.file, encoding="utf-8", ensure_ascii=False)
         self.exporter.start_exporting()
 
     def close_spider(self, spider):
@@ -40,7 +40,7 @@ class JsonExporterPipeline(object):
         self.file.close()
 
     def process_item(self, item, spider):
-        self.exporter.export_item(item)
+        self.exporter.export_item(item)._beautify_newline()
         return item
 
 class GetImagesPipeline(object):

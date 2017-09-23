@@ -65,9 +65,10 @@ ROBOTSTXT_OBEY = False
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'image_spider.pipelines.JsonExporterPipeline': 299,
-#    'image_spider.pipelines.ImageSpiderPipeline': 300,
-    'image_spider.pipelines.ElasticsearchPipeline': 301
+    'image_spider.pipelines.JsonExporterPipleline': 299,
+    #'image_spider.pipelines.ImageSpiderPipeline': 300,
+    #'image_spider.pipelines.ElasticsearchPipeline': 301
+
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

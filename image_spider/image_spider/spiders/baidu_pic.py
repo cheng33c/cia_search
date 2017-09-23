@@ -5,6 +5,8 @@ import os
 import requests
 
 from .config import *
+from scrapy.loader import ItemLoader
+from image_spider.items import ImageSpiderItem
 
 # MONGO CONFIG
 MONGO_DB = 'image_spider'
@@ -24,12 +26,12 @@ class BaiduPicSpider(scrapy.Spider):
     }
     params = []
     # keyword = input("请输入你要爬取的图片")
+    keyword = '人物 开心'
 
     urls = []
 
     def __init__(self):
         pages = 10
-        keyword = '人物 开心'
         for i in range(30, 30 * pages + 30, 30):
             self.params.append({
                 'tn': 'resultjson_com',
@@ -37,7 +39,7 @@ class BaiduPicSpider(scrapy.Spider):
                 'ct': 201326592,
                 'is': '',
                 'fp': 'result',
-                'queryWord': keyword,
+                'queryWord': self.keyword,
                 'cl': 2,
                 'lm': -1,
                 'ie': 'utf-8',
@@ -46,7 +48,7 @@ class BaiduPicSpider(scrapy.Spider):
                 'st': -1,
                 'z': '',
                 'ic': 0,
-                'word': keyword,
+                'word': self.keyword,
                 's': '',
                 'se': '',
                 'tab': '',
@@ -77,8 +79,7 @@ class BaiduPicSpider(scrapy.Spider):
 
 
     def parse(self, response):
-
-
+        item = ImageSpiderItem()
         try:
             x = 0
             for list in self.urls:
@@ -94,12 +95,12 @@ class BaiduPicSpider(scrapy.Spider):
                         open(save_path, 'wb').write(ir.content)
                         x += 1
 
-                    # 建立item
-                    item = {
-                        'url': thumbURL,
-                        'source': i.get('fromURLHost'),
-                        'local_path': save_path
-                    }
+                    # 建立item_loader
+                    item['url'] = thumbURL
+                    item['source'] = i.get('fromURLHost')
+                    item['local_path'] = save_path
+                    item['tags'] = self.keyword
+                    return item
             print('图片下载完成')
         except Exception:
             print('图片下载失败')
