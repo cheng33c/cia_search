@@ -4,8 +4,6 @@ from elasticsearch_dsl.analysis import CustomAnalyzer as ca
 
 connections.create_connection(hosts=["localhost"])
 
-
-
 class CustomAnalyzer(ca):
     def get_analysis_definition(self):
         return {}

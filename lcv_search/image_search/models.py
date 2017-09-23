@@ -1,13 +1,26 @@
-from django.db import models
-from elasticsearch_dsl import DocType, Keyword, Text
+from elasticsearch_dsl import DocType, Keyword, Text, Completion
 from elasticsearch_dsl.connections import connections
+from elasticsearch_dsl.analysis import CustomAnalyzer as ca
+
 connections.create_connection(hosts=["localhost"])
 
+class CustomAnalyzer(ca):
+    def get_analysis_definition(self):
+        return {}
+
+ik_analyzer = CustomAnalyzer("ik_max_word", filter=["lowercase"])
 
 class ImageType(DocType):
-    name = Text() # 图片的文件名
-    title = Text(analyzer="ik_max_word") # 图片的标题
-    tags = Text() # 图片的分类
+    url_object_id = Keyword() # 图片对象id
+    local_path = Text() # 图片路径
     source = Text() # 图片的来源
     url = Keyword() # 图片的url地址
-    local_path = Text() # 本地保存的路径
+    tags = Text(analyzer='ik_max_word') # 图片生成的标签
+    suggest = Completion(analyzer=ik_analyzer) # 搜索建议
+
+    class Meta:
+        index = "baidu"
+        doc_type = "image"
+
+if __name__ == "__main__":
+    ImageType.init()
