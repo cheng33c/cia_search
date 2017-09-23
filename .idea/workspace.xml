@@ -2,11 +2,184 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07bc8c1-589b-4130-aa42-01d385370b72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/1.jl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img100.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img101.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img102.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img103.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img104.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img105.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img107.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img108.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img109.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img110.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img111.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img112.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img113.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img114.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img115.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img116.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img117.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img118.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img119.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img120.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img121.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img122.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img123.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img124.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img125.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img126.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img127.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img130.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img131.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img132.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img133.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img134.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img136.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img137.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img138.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img139.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img140.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img141.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img142.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img143.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img144.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img145.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img146.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img147.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img148.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img149.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img151.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img152.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img153.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img154.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img155.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img156.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img157.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img158.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img159.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img161.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img162.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img163.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img164.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img165.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img166.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img167.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img168.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img169.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img170.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img171.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img172.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img173.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img39.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img40.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img41.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img42.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img43.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img44.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img45.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img46.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img47.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img48.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img49.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img51.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img52.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img53.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img54.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img56.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img57.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img58.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img59.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img60.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img61.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img62.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img63.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img64.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img65.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img66.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img67.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img68.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img69.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img70.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img71.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img73.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img74.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img75.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img76.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img77.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img78.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img79.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img81.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img82.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img83.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img84.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img85.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img86.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img87.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img88.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img89.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img90.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img91.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img92.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img93.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img94.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img95.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img96.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img97.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img98.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/download_img99.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image_spider/download_img/fuck.jl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/settings.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +190,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baidu_pic.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baidu_pic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,21 +212,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fuck.jl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_spider/download_img/fuck.jl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="61" column="82" lean-forward="true" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="18">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="e#192#205#0" expanded="true" />
               </folding>
@@ -85,11 +246,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="67" column="52" lean-forward="false" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
+            <state relative-caret-position="90">
+              <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -124,12 +285,12 @@
         <option value="$PROJECT_DIR$/image_spider/download_img/article.json" />
         <option value="$PROJECT_DIR$/image_spider/download_img/3.json" />
         <option value="$PROJECT_DIR$/image_spider/download_img/dump.json" />
-        <option value="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" />
-        <option value="$PROJECT_DIR$/image_spider/image_spider/settings.py" />
         <option value="$PROJECT_DIR$/image_spider/download_img/1.jl" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
         <option value="$PROJECT_DIR$/image_spider/download_img/fuck.jl" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
+        <option value="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" />
+        <option value="$PROJECT_DIR$/image_spider/image_spider/settings.py" />
       </list>
     </option>
   </component>
@@ -181,12 +342,6 @@
               <item name="cia_search" type="b2602c69:ProjectViewProjectNode" />
               <item name="cia_search" type="462c0819:PsiDirectoryNode" />
               <item name="image_spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cia_search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cia_search" type="462c0819:PsiDirectoryNode" />
-              <item name="image_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="download_img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -317,9 +472,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45195195" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -543,22 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="67" column="52" lean-forward="false" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/download_img/fuck.jl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="61" column="82" lean-forward="true" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/download_img/download_img101.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -577,6 +715,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -587,31 +741,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/items.py">
+    <entry file="file://$PROJECT_DIR$/image_spider/download_img/fuck.jl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="61" column="82" lean-forward="true" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/image_spider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="18">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="e#192#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="100" column="50" lean-forward="false" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="68" column="56" lean-forward="false" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>

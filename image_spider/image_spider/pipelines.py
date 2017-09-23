@@ -17,17 +17,6 @@ class ImageSpiderPipeline(object):
     def process_item(self, item, spider):
         return item
 
-class JsonWithEncodingPipeline(object):
-    #自定义json文件的导出
-    def __init__(self):
-        self.file = codecs.open('1.jl', 'w', encoding="utf-8")
-    def process_item(self, item, spider):
-        lines = json.dumps(dict(item), ensure_ascii=False) + "\n"
-        self.file.write(lines)
-        return item
-    def spider_closed(self, spider):
-        self.file.close()
-
 class JsonExporterPipleline(object):
     #调用scrapy提供的json export导出json文件
     def __init__(self):
