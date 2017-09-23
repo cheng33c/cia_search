@@ -26,7 +26,7 @@ class BaiduPicSpider(scrapy.Spider):
     }
     params = []
     # keyword = input("请输入你要爬取的图片")
-    keyword = '人物 开心'
+    keyword = '开心'
 
     urls = []
 
