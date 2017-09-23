@@ -11,7 +11,7 @@ def download_url(save_path, url):
 class JsonWithEncodingPipeline(object):
     #自定义json文件的导出
     def __init__(self, item):
-        self.file = codecs.open('fuck.jl', 'a', encoding="utf-8")
+        self.file = codecs.open('dump.jl', 'a', encoding="utf-8")
         self.process_item(item)
 
     def process_item(self, item):

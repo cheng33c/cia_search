@@ -10,7 +10,8 @@ import scrapy
 
 class ImageSpiderItem(scrapy.Item):
     # define the fields for your item here like:
-    source = scrapy.Field()
-    url = scrapy.Field()
-    local_path = scrapy.Field()
-    tags = scrapy.Field()
+    url_object_id = scrapy.Field()
+    source = scrapy.Field() # 图片来源
+    url = scrapy.Field() # 图片网址
+    local_path = scrapy.Field() # 本地路径
+    tags = scrapy.Field() # 图片标签

@@ -36,8 +36,11 @@ class ElasticsearchPipeline(object):
 
     def process_item(self, item, spider):
         image = ImageType()
-        image.title = remove_tags(item['title'])
-        image.local_path = item['local_path']
+        image.local_path = item["local_path"]
+        image.tags = item["tags"]
+        image.url = item["url"]
+        image.source = item["source"]
+        image.meta.id = item["url_object_id"]
 
         image.save()
         return item
