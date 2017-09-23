@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07bc8c1-589b-4130-aa42-01d385370b72" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/image_spider/image_spider/utils/commands.py" afterPath="$PROJECT_DIR$/image_spider/start_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/items.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/items.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/spiders/config.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/spiders/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image_spider/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/image_spider/start_spider.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +81,7 @@
         </entry>
       </file>
       <file leaf-file-name="start_spider.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/image_spider/start_spider.py">
+        <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
@@ -188,14 +184,6 @@
               <item name="image_spider" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cia_search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cia_search" type="462c0819:PsiDirectoryNode" />
-              <item name="image_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="image_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="download_img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -217,6 +205,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image_spider/image_spider/utils" />
       <recent name="$PROJECT_DIR$/image_spider" />
     </key>
   </component>
@@ -262,7 +251,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="cia_search" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_spider/start_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -354,7 +343,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/start_spider.py">
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -439,7 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/start_spider.py">
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
