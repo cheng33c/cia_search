@@ -5,7 +5,7 @@ import os
 import requests
 
 from .config import *
-from scrapy.loader import ItemLoader
+from image_spider.utils.public_proc import *
 from image_spider.items import ImageSpiderItem
 
 # MONGO CONFIG
@@ -89,10 +89,8 @@ class BaiduPicSpider(scrapy.Spider):
                     #fromPageTitleEnc = i.get('fromPageTitleEnc').decode('utf-8')
                     # 下载图片并保存
                     save_path = baidu_pic_path + '%d.jpg' % x
-                    if i.get('thumbURL') != None:
-                        print('正在下载：%s' % thumbURL)
-                        ir = requests.get(thumbURL)
-                        open(save_path, 'wb').write(ir.content)
+                    if thumbURL != None:
+                        download_url(save_path, thumbURL)
                         x += 1
 
                     # 建立item_loader
@@ -100,7 +98,7 @@ class BaiduPicSpider(scrapy.Spider):
                     item['source'] = i.get('fromURLHost')
                     item['local_path'] = save_path
                     item['tags'] = self.keyword
-                    return item
+                    JsonWithEncodingPipeline(item)
             print('图片下载完成')
         except Exception:
             print('图片下载失败')

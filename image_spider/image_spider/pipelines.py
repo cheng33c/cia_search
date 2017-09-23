@@ -40,15 +40,8 @@ class JsonExporterPipleline(object):
         self.file.close()
 
     def process_item(self, item, spider):
-        self.exporter.export_item(item)._beautify_newline()
+        self.exporter.export_item(item)
         return item
-
-class GetImagesPipeline(object):
-    def __init__(self):
-        localPath = 'download_img'
-        if not os.path.exists(localPath):
-            os.mkdir(localPath)
-        os.chdir(localPath)
 
 class ElasticsearchPipeline(object):
 
