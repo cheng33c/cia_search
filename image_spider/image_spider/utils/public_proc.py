@@ -11,7 +11,7 @@ def download_url(save_path, url):
 
 def dump_item_to_json(item):
     # 将item导出为json文件
-    file = codecs.open('dump.jl', 'a', encoding='utf8')
+    file = codecs.open('dump.json', 'a', encoding='utf8')
     lines = json.dumps(dict(item), ensure_ascii=False) + '\n'
     file.write(lines)
     file.close()
