@@ -53,9 +53,7 @@ class BaiduSpider(scrapy.Spider):
 
 
     def getImg(self, dataList, localPath):
-        if not os.path.exists(localPath):
-            os.mkdir(localPath)
-        os.chdir(localPath)
+
         try:
             x = 0
             for list in dataList:

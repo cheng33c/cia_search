@@ -3,8 +3,6 @@ import scrapy
 import pymongo
 import os
 import requests
-import re
-import urllib.request
 
 from .config import *
 
@@ -64,6 +62,9 @@ class BaiduPicSpider(scrapy.Spider):
                 'gsm': '1e',
                 '1505488170554': ''
             })
+        if not os.path.exists(baidu_pic_path):
+            os.mkdir(baidu_pic_path)
+        os.chdir(baidu_pic_path)
 
     def start_requests(self):
         for i in self.params:
@@ -73,33 +74,32 @@ class BaiduPicSpider(scrapy.Spider):
                 new_url = new_url + "&" + str(a) + "=" + str(b)
             yield scrapy.Request(url=new_url, callback=self.parse)
 
-        # self.getPic(self.urls, baidu_pic_path)
+
 
     def parse(self, response):
-        for list in self.urls:
-            for i in list:
-                #print(i.get('fromPageTitleEnc').encode())
-                #fromPageTitleEnc = i.get('fromPageTitleEnc').decode('utf-8')
-                item = {
-                    'thumbURL': i.get('thumbURL'),
-                    'fromURLHost': i.get('fromURLHost'),
-                }
 
 
-
-    def getPic(self, dataList, localPath):
-        if not os.path.exists(localPath):
-            os.mkdir(localPath)
-        os.chdir(localPath)
         try:
             x = 0
-            for list in dataList:
+            for list in self.urls:
                 for i in list:
+                    thumbURL = i.get('thumbURL')
+                    #print(i.get('fromPageTitleEnc').encode())
+                    #fromPageTitleEnc = i.get('fromPageTitleEnc').decode('utf-8')
+                    # 下载图片并保存
+                    save_path = baidu_pic_path + '%d.jpg' % x
                     if i.get('thumbURL') != None:
-                        print('正在下载：%s' % i.get('thumbURL'))
-                        ir = requests.get(i.get('thumbURL'))
-                        open(localPath + '%d.jpg' % x, 'wb').write(ir.content)
+                        print('正在下载：%s' % thumbURL)
+                        ir = requests.get(thumbURL)
+                        open(save_path, 'wb').write(ir.content)
                         x += 1
+
+                    # 建立item
+                    item = {
+                        'url': thumbURL,
+                        'source': i.get('fromURLHost'),
+                        'local_path': save_path
+                    }
             print('图片下载完成')
         except Exception:
-            print("图片下载失败")
+            print('图片下载失败')
