@@ -24,14 +24,16 @@ class BaiduPicSpider(scrapy.Spider):
         "Referer": "https://image.baidu.com",
         'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0"
     }
+    params = []
+    # keyword = input("请输入你要爬取的图片")
 
-    def start_requests(self):
-        params = []
+    urls = []
+
+    def __init__(self):
         pages = 10
-        # keyword = input("请输入你要爬取的图片")
         keyword = '人物 开心'
         for i in range(30, 30 * pages + 30, 30):
-            params.append({
+            self.params.append({
                 'tn': 'resultjson_com',
                 'ipn': 'rj',
                 'ct': 201326592,
@@ -62,24 +64,28 @@ class BaiduPicSpider(scrapy.Spider):
                 'gsm': '1e',
                 '1505488170554': ''
             })
-        urls = []
-        for i in params:
-            urls.append(requests.get(self.start_urls[0], params=i).json().get('data'))
+
+    def start_requests(self):
+        for i in self.params:
+            self.urls.append(requests.get(self.start_urls[0], params=i).json().get('data'))
             new_url = self.start_urls[0]
             for (a, b) in i.items():
                 new_url = new_url + "&" + str(a) + "=" + str(b)
             yield scrapy.Request(url=new_url, callback=self.parse)
 
-        #self.getPic(urls, baidu_pic_path)
+        # self.getPic(self.urls, baidu_pic_path)
 
     def parse(self, response):
-        url = response.url
-        req = urllib.request.Request(url=url, headers=self.headers)
-        source = urllib.request.urlopen(req)
-        html = source.read().decode('utf-8')
-        pattern_title = re.compile(r'"fromPageTitleEnc":"(.*)"')
-        title = match = pattern_title.match(html)
-        print(title)
+        for list in self.urls:
+            for i in list:
+                #print(i.get('fromPageTitleEnc').encode())
+                #fromPageTitleEnc = i.get('fromPageTitleEnc').decode('utf-8')
+                item = {
+                    'thumbURL': i.get('thumbURL'),
+                    'fromURLHost': i.get('fromURLHost'),
+                }
+
+
 
     def getPic(self, dataList, localPath):
         if not os.path.exists(localPath):
