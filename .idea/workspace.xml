@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c07bc8c1-589b-4130-aa42-01d385370b72" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/image_spider/image_spider/utils/start_spider.py" afterPath="$PROJECT_DIR$/image_spider/start_spider.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/items.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/items.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" afterPath="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
     </list>
@@ -22,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="baidu_pic.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baidu_pic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+            <state relative-caret-position="534">
+              <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -69,10 +65,10 @@
       <file leaf-file-name="es_types.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
-                <element signature="e#0#52#0" expanded="true" />
+                <element signature="e#0#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -90,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public_proc.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="public_proc.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="228">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -134,10 +130,10 @@
         <option value="$PROJECT_DIR$/image_spider/download_img/fuck.jl" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/settings.py" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/pipelines.py" />
+        <option value="$PROJECT_DIR$/image_spider/image_spider/items.py" />
+        <option value="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py" />
         <option value="$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py" />
-        <option value="$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py" />
-        <option value="$PROJECT_DIR$/image_spider/image_spider/items.py" />
       </list>
     </option>
   </component>
@@ -188,6 +184,12 @@
               <item name="cia_search" type="b2602c69:ProjectViewProjectNode" />
               <item name="cia_search" type="462c0819:PsiDirectoryNode" />
               <item name="image_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cia_search" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cia_search" type="462c0819:PsiDirectoryNode" />
+              <item name="image_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="download_img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cia_search" type="b2602c69:ProjectViewProjectNode" />
@@ -253,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.commands">
+  <component name="RunManager" selected="Python.es_types">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,8 +370,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.771261" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18594436" sideWeight="0.771261" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3858859" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -414,13 +417,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
@@ -573,31 +569,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/start_spider.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,12 +587,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/modules/es_types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/download_img/dump.jl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5168">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/image_spider/image_spider/spiders/baidu_pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+        <state relative-caret-position="534">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_spider/image_spider/utils/public_proc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

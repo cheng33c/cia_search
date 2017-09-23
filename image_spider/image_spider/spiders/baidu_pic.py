@@ -98,7 +98,8 @@ class BaiduPicSpider(scrapy.Spider):
                     item['source'] = i.get('fromURLHost')
                     item['local_path'] = save_path
                     item['tags'] = self.keyword
-                    #JsonWithEncodingPipeline(item)
+                    item['url_object_id'] = get_md5(thumbURL)
+                    dump_item_to_json(item)
                     save_item_to_es(item)
             print('图片下载完成')
         except Exception:
