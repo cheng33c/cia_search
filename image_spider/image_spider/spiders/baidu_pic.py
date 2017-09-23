@@ -90,7 +90,7 @@ class BaiduPicSpider(scrapy.Spider):
                     # 下载图片并保存
                     save_path = baidu_pic_path + '%d.jpg' % x
                     if thumbURL != None:
-                        download_url(save_path, thumbURL)
+                        #download_url(save_path, thumbURL)
                         x += 1
 
                     # 建立item_loader
@@ -98,7 +98,8 @@ class BaiduPicSpider(scrapy.Spider):
                     item['source'] = i.get('fromURLHost')
                     item['local_path'] = save_path
                     item['tags'] = self.keyword
-                    JsonWithEncodingPipeline(item)
+                    #JsonWithEncodingPipeline(item)
+                    save_item_to_es(item)
             print('图片下载完成')
         except Exception:
             print('图片下载失败')

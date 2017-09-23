@@ -9,7 +9,7 @@ def download_url(save_path, url):
     open(save_path, 'wb').write(ir.content)
 
 class JsonWithEncodingPipeline(object):
-    #自定义json文件的导出
+    # 将item作为json的格式导出
     def __init__(self, item):
         self.file = codecs.open('dump.jl', 'a', encoding="utf-8")
         self.process_item(item)
@@ -21,3 +21,18 @@ class JsonWithEncodingPipeline(object):
 
     def spider_closed(self):
         self.file.close()
+
+
+class ElasticsearchPipeline(object):
+    # 将item数据保存到es中
+    def __init__(self, item):
+        self.process_item(item)
+
+    def process_item(self, item):
+        #将item转换为es的数据
+        item.save_to_es()
+        return item
+
+def save_item_to_es(item):
+    print("\nsave_to_es()\n")
+    item.save_to_es()

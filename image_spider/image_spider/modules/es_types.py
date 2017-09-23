@@ -4,7 +4,7 @@ from elasticsearch_dsl.connections import connections
 connections.create_connection(hosts=["localhost"])
 
 class ImageType(DocType):
-    url_object_id = Keyword() # 图片对象id
+    # url_object_id = Keyword() # 图片对象id
     local_path = Text() # 图片路径
     source = Text() # 图片的来源
     url = Keyword() # 图片的url地址

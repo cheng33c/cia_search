@@ -10,7 +10,6 @@ import os
 import pymongo
 
 from image_spider.modules.es_types import ImageType
-from w3lib.html import remove_tags
 from scrapy.exporters import JsonItemExporter
 
 class ImageSpiderPipeline(object):
@@ -35,14 +34,9 @@ class JsonExporterPipleline(object):
 class ElasticsearchPipeline(object):
 
     def process_item(self, item, spider):
-        image = ImageType()
-        image.local_path = item["local_path"]
-        image.tags = item["tags"]
-        image.url = item["url"]
-        image.source = item["source"]
-        image.meta.id = item["url_object_id"]
+        #将item转换为es的数据
+        item.save_to_es()
 
-        image.save()
         return item
 
 class MongoPipeline(object):
