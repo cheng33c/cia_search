@@ -14,14 +14,15 @@
     	<a href="/"><div class="logo"></div></a>
         <div class="inputArea">
         	<input type="text" class="searchInput" value="{{ key_words }}"/>
-            <input type="button" class="searchButton" onclick="add_search()"/>
+            <input type="button" class="searchButton" onclick="add_search()" value="搜索"/>
         </div>
     </div>
     <div class="nav">
     	<ul class="searchList">
-            <li class="searchItem current" data-type="article">文章</li>
+            <li class="searchItem current" data-type="article">图片</li>
+            <!--
             <li class="searchItem" data-type="question">问答</li>
-            <li class="searchItem" data-type="job">职位</li>
+            <li class="searchItem" data-type="job">职位</li> -->
         </ul>
     </div>
 	<div id="bd" class="ue-clear">
@@ -31,16 +32,16 @@
                 <div class="subfield">网站</div>
                 <ul class="subfieldContext">
                 	<li>
-                    	<span class="name">伯乐在线</span>
+                    	<span class="name">bilibili</span>
 						<span class="unit">({{ jobbole_count }})</span>
                     </li>
                     <li>
-                    	<span class="name">知乎</span>
-						<span class="unit">(9862)</span>
+                    	<span class="name">dilidili</span>
+						<span class="unit">(20)</span>
                     </li>
                     <li>
-                    	<span class="name">拉勾网</span>
-						<span class="unit">(9862)</span>
+                    	<span class="name">其他</span>
+						<span class="unit">(20)</span>
                     </li>
                     <li class="more">
                     	<a href="javascript:;">
@@ -115,7 +116,6 @@
                 <div class="mySearch">
                 	<h6>我的搜索</h6>
                     <ul class="historyList">
-
                     </ul>
                 </div>
             </div>

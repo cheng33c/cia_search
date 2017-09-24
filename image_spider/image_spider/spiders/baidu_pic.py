@@ -1,23 +1,19 @@
 # -*- coding: utf-8 -*-
 import scrapy
-import pymongo
 import os
-import requests
+import urllib.request
+import urllib.parse
 
+from lxml import etree
 from .config import *
 from image_spider.utils.public_proc import *
 from image_spider.items import ImageSpiderItem
 
-# MONGO CONFIG
-MONGO_DB = 'image_spider'
-MONGO_TABLE = 'baidu_pic'
-client = pymongo.MongoClient(MONGO_URL)
-db = client[MONGO_DB]
-
 class BaiduPicSpider(scrapy.Spider):
     name = 'baidu_pic'
     allowed_domains = ['image.baidu.com']
-    start_urls = ['https://image.baidu.com/search/acjson?']
+    start_urls = ['https://image.baidu.com/search/acjson?',
+                  'https://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=201326592&cl=2&lm=-1&st=-1&fr=&sf=1&fmq=1462357247335_R&pv=&ic=0&nc=1&z=&se=1&showtab=0&fb=0&width=&height=&face=0&istype=2&ie=utf-8&word=']
 
     headers = {
         "HOST": "image.baidu.com",
@@ -26,11 +22,24 @@ class BaiduPicSpider(scrapy.Spider):
     }
     params = []
     # keyword = input("请输入你要爬取的图片")
-    keyword = '开心'
+    keyword = '悲伤'
+
 
     urls = []
 
     def __init__(self):
+        # 第一次请求网页并解析爬取
+        # 因为第一次没有ajax请求，所以直接进行访问爬取
+        #self.keyword = urllib.parse.quote(self.keyword)
+        #url = self.start_urls[1] + self.keyword
+        #res = urllib.request.urlopen(url)
+        #html = res.read()
+        #page = etree.HTML(html.lower().decode('utf-8'))
+        #images = page.xpath(u'//*[@id="imgid"]/*[@class="imglist"]/li')
+        #for image in images:
+        #    print(image)
+
+        # 生成必要的参数并构造ajax请求
         pages = 10
         for i in range(30, 30 * pages + 30, 30):
             self.params.append({
@@ -85,7 +94,7 @@ class BaiduPicSpider(scrapy.Spider):
             for list in self.urls:
                 for i in list:
                     thumbURL = i.get('thumbURL')
-                    #print(i.get('fromPageTitleEnc').encode())
+                    #print(i.get('fromPageTitleEnc').decode('utf-8'))
                     #fromPageTitleEnc = i.get('fromPageTitleEnc').decode('utf-8')
                     # 下载图片并保存
                     save_path = baidu_pic_path + '%d.jpg' % x
