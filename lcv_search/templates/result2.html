@@ -19,9 +19,7 @@
     </div>
     <div class="nav">
     	<ul class="searchList">
-            <li class="searchItem current" data-type="article">文章</li>
-            <li class="searchItem" data-type="question">问答</li>
-            <li class="searchItem" data-type="job">职位</li>
+            <li class="searchItem current" data-type="article">图片</li>
         </ul>
     </div>
 	<div id="bd" class="ue-clear">
@@ -62,16 +60,6 @@
                 <div class="resultList">
                     {% for hit in all_hits %}
                     <div class="resultItem">
-                            <!--<div class="demo">
-                                <ul>
-                                    <li>
-                                        <a href={{ hit.url }}>
-                                            <img src="{% static 'img/ll.png' %}" />
-                                            <span></span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>-->
                             <div class="itemHead">
                                 <a href="{{ hit.url }}"  target="_blank" class="title">{% autoescape off %}{{ hit.tags }}{% endautoescape %}</a>
                                 <span class="divsion">-</span>
@@ -79,15 +67,19 @@
                                     <span class="label">来源：</span>
                                     <span class="value">{{ hit.source }}</span>
                                 </span>
-                                <!--<span class="dependValue">
+                                <span class="dependValue">
                                     <span class="label">得分：</span>
                                     <span class="value">{{ hit.score }}</span>
-                                </span> -->
+                                </span>
                             </div>
                             <div class="itemBody">
                                 {% autoescape off %}{{ hit.content }}{% endautoescape %}
                             </div>
                             <div class="itemFoot">
+                                <span class="info">
+                                    <label>网站：</label>
+                                    <span class="value">伯乐在线</span>
+                                </span>
                                 <span class="info">
                                     <label>发布时间：</label>
                                     <span class="value">2017-04-23</span>
