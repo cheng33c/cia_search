@@ -35,8 +35,8 @@ class SearchView(View):
                     body={
                         "query": {
                             "multi_match": {
-                                "query": "开心",
-                                "fields": ["tags"]
+                                "query": key_words,
+                                "fields": ["source","url","tags"]
                             }
                         },
                         "from": 0,
@@ -51,16 +51,14 @@ class SearchView(View):
         total_nums = response["hits"]["total"]
 
         hit_list = []
-        '''
         for hit in response["hits"]["hits"]:
             hit_dict = {}
-            if "tags" in hit["highlight"]:
-                hit_dict["tags"] = "".join(hit["highlight"]["tags"])
-            else:
-                hit_dict["tags"] = hit["_source"]["tags"]
+            #if "tags" in hit["highlight"]:
+              #  hit_dict["tags"] = "".join(hit["highlight"]["tags"])
+            #else:
+            hit_dict["tags"] = hit["_source"]["tags"]
             hit_dict["url"] = hit["_source"]["url"]
             hit_dict["score"] = hit["_score"]
 
             hit_list.append(hit_dict)
-        '''
         return render(request, "result.html", {"all_hits": hit_list, "key_words": key_words})

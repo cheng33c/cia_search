@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>lcv-search 搜索引擎</title>
+<title>搜索引擎</title>
 <link href="{% static 'css/style.css' %}" rel="stylesheet" type="text/css" />
 <link href="{% static 'css/index.css' %}" rel="stylesheet" type="text/css" />
 </head>
@@ -18,9 +18,11 @@
             </h1>
             <div class="nav ue-clear">
             	<ul class="searchList">
+                    <!--
                     <li class="searchItem current" data-type="article">文章</li>
                     <li class="searchItem" data-type="question">问答</li>
-                    <li class="searchItem" data-type="job">职位</li>
+                    <li class="searchItem" data-type="job">职位</li> -->
+                    <li class="searchItem current" data-type="image">图片</li>
                 </ul>
             </div>
             <div class="inputArea">
@@ -34,6 +36,7 @@
                     <li>哪里有好的网站</li>
                 </ul>
             </div>
+
 
             <div class="historyArea">
             	<p class="history">
@@ -55,12 +58,6 @@
             </div>
         </div><!-- End of main -->
     </div><!--End of bd-->
-
-    <div class="foot">
-    	<div class="wrap">
-            <div class="copyright">Copyright &copy;uimaker.com 版权所有  E-mail:admin@uimaker.com</div>
-        </div>
-    </div>
 </div>
 </body>
 <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>

@@ -3,13 +3,13 @@ html{*overflow:auto;}
 #main{width:730px;margin:75px auto 0;}
 #main h1.title{width:600px;}
 #bd{margin-bottom:20px;}
-.logo.large{margin:0px auto 10px auto;width:342px;height:144px;background: url(../img/logo.png) no-repeat center center;}
+.logo.large{margin:0px auto 10px auto;width:342px;height:144px;background: url(../img/logo-bak2.png) no-repeat center center;}
 
 /*nav样式*/
 .nav{margin-bottom:10px;}
 .searchList{float:left;padding-left:5px;}
 .searchList .searchItem{float:left;margin-right:15px;font-size:14px;padding:0 0 2px 2px;cursor:pointer;height:18px;}
-.searchList .searchItem.current{color:#0080cc;border-bottom:2px solid #9cc813;font-weight:bold;}
+.searchList .searchItem.current{color:#0080cc;border-bottom:2px solid #EE2C2C;font-weight:bold;}
 
 /*input搜索区域*/
 .inputArea{position:relative;margin-bottom:65px;}
@@ -27,8 +27,3 @@ html{*overflow:auto;}
 .historyArea .history {margin-bottom:5px;}
 .historyArea .history label{font-weight:bold;}
 .historyArea .history a{margin-right:12px;}
-
-/*版权信息*/
-.foot{position:absolute;bottom:0px;width:100%;}
-.foot .wrap{margin:0 auto;}
-.foot .copyright{position:relative;top:-35px;color:#ababab;text-align:center;}
