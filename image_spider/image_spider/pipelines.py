@@ -4,12 +4,8 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
-import codecs
-import json
-import os
 import pymongo
 
-from image_spider.modules.es_types import ImageType
 from scrapy.exporters import JsonItemExporter
 
 class ImageSpiderPipeline(object):
