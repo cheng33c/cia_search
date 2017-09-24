@@ -33,6 +33,8 @@ class SearchView(View):
         page = request.GET.get("p", "1")
         try:
             page = int(page)
+            if page is 0:
+                page = 1
         except:
             page = 1
 
@@ -71,6 +73,7 @@ class SearchView(View):
             #else:
             hit_dict["tags"] = hit["_source"]["tags"]
             hit_dict["url"] = hit["_source"]["url"]
+            hit_dict["source"] = hit["_source"]["source"]
             hit_dict["score"] = hit["_score"]
 
             hit_list.append(hit_dict)
